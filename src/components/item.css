@@ -1,0 +1,85 @@
+.ItemContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin: 10px 5px;
+    background-color: #dadada;
+}
+
+.ItemHeader{
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.ItemPrice{
+    text-align: center;
+}
+
+.ItemBody{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ItemCount{
+    text-align: center;
+
+}
+
+.ItemButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemButton button{
+    height: 50%;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    border: 1px rgb(46, 46, 46) solid;
+    border-radius: 4px;
+
+    background-color: rgb(158, 158, 158);
+
+}
+
+.ItemButton button:hover{
+    background-color: rgb(138, 138, 138);
+}
+
+.ItemAmountChange, .ItemRemove{
+    display:flex;
+    align-items: center;
+}
+
+.ItemAmountChange button, .ItemRemove button{
+    height: 20px;
+    width: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+
+    border: 1px rgb(152, 133, 170) solid;
+    border-radius: 4px;
+
+    background-color: rgb(158, 158, 158);
+}
+
+.ItemAmountChange button:hover, .ItemRemove button:hover{
+    background-color: rgb(138, 138, 138);
+}
+
+.text{
+    text-align: center;
+    font-size: 22px;
+}
+
+.ItemRemove{
+    display: flex;
+    justify-content: center;
+}

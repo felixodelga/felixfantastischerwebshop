@@ -1,0 +1,22 @@
+.main{
+    background-color: #6d6d6d;
+}
+
+.shop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop div{
+    flex-basis: 50%;
+}
+
+.total{
+    position: absolute;
+    bottom: 0;
+}
+
+.border{
+    flex: 1 1 auto;
+    border-left: 3px solid black;
+}
